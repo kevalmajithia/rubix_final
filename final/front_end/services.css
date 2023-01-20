@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+.psychologists{
+    color: #ECDBFA;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+/* .transition{
+    transition: all 1s linear;
+}
+.transition:hover{
+    scale: 1.15;
+} */
+.heading{
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    font-weight: bolder;
+}
+.image {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.ketan span{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.ketan{
+    height: 480px;
+    width: 400px;
+    margin: 20px;
+    /* border: 2px solid black; */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: rgb(157, 99, 212); */
+    background-color:#2D0E4A;
+}
+.btn{
+    height: 50px;
+    width: 110px;
+    margin-top: 5px;
+    background-color: black;
+    color:white;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.align{
+    margin-top: 35px;
+}
+.card{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.imgBx img{
+    height: 500px;
+    width: 350px;
+}
+.container{
+    border: 5px solid blueviolet; 
+    background-color: blueviolet;
+    height: 500px;
+    width: 1000px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
+.content{
+    font-size: 30px;
+    padding-left: 60px;
+    /* margin: 10px; */
+}
+.content span{
+    margin: 20px;
+    margin-left: 40px;
+}
+#dp{
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+.containers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#how{
+    text-align: center;
+    font-size: 95px;
+}

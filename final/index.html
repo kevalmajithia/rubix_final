@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div>
+        <div class="row">
+            <div class="col-md-3">
+                <div style="height:800px;width:100%;background-color:#8a2ce2;">
+                    <div style="padding-top:30px;">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="images/avatar_circle.png"
+                                    style="border-radius:50%;width:40px;height:40px;margin:20px;" />
+                            </div>
+                            <div class="col-md-10">
+                                <h4 style="color:white;margin-top:20px;margin-left:2px;">Welcome to MindSpace Chatbot</h4>
+                            </div>
+                        </div>
+                        <!-- <div>
+                        <ul>
+                            <li>Download Brochure</li>
+                            <li>Login</li>
+                            <li>Credit Cards</li>
+                            <li>Home Loans</li>
+                            <li>Why Us ?</li>
+                        </ul>
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div id="chatbotbox" style="padding:20px;">
+                    <div id="bot1">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#ECDBFA;padding:10px;border-radius:20px;">Hey there ! How may
+                                    I help you today.</p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="images/chatbot.png" style="border-radius:50%;width:40px;height:40px;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div id="user1">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <img src="images/avatar_circle.png"
+                                    style="border-radius:50%;width:40px;height:40px;margin:10px;" />
+                            </div>
+                            <div class="col-md-11">
+                                <p id="answer" class="user1ans1"
+                                    style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                    Suggest me some quick refreshments.</p>
+                                <p id="answer" class="user1ans2"
+                                    style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                    I need help.</p>
+                                <p id="answer" class="user1ans7"
+                                    style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                    Tell me a joke.</p>
+                                <p id="answer" class="user1ans8"
+                                    style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                    Play some relaxing music.</p>
+                                <!-- <p id="answer" class="user1ans4" style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">random 4</p>
+                                <p id="answer" class="user1ans3" style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Suggest quick refreshment break ideas</p>
+                                <p id="answer" class="user1ans5" style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">random 5</p>
+                                <p id="answer" class="user1ans6" style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">random 6</p> -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <br>
+                    <div id="bot2b">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#ECDBFA;padding:10px;border-radius:20px;">Do you wish to talk
+                                    to an expert?</p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="images/chatbot.png" style="border-radius:50%;width:40px;height:40px;" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="user2b">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <img src="images/avatar_circle.png"
+                                    style="border-radius:50%;width:40px;height:40px;margin:10px;" />
+                            </div>
+                            <div class="col-md-11">
+                                <p id="answer" class="helpline"
+                                    style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                    Yes.</p>
+                                <p id="answer" class="suggestions"
+                                    style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                    No.</p>
+                            </div>
+                        </div>
+                    </div><br><br>
+
+
+                    <div id="bot3b">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#ECDBFA;padding:10px;border-radius:20px;">Alright, please <a
+                                        href="https://pib.gov.in/PressReleasePage.aspx?PRID=1652240"><span>visit
+                                            here</span></a> or call on 1800-599-0019. It is a 24x7 Toll-Free Mental
+                                    Health Rehabilitation Helpline </p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="images/chatbot.png" style="border-radius:50%;width:40px;height:40px;" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="bot3b2">
+                        <div class="row">
+                            <div class="col-md-11">
+
+                                <p style="background-color:#ECDBFA;padding:10px;border-radius:20px;">Maybe some of these
+                                    might help:
+                                    <li>Calm you nerves by doing meditation. Here’s a <a
+                                            href="https://youtu.be/O-6f5wQXSu8">link</a> to a video which might help.
+                                    </li>
+                                    <li>Reading a book might help you figure things out.</li>
+                                    <li>Spending some time in the woods can definitely help you.</li>
+                                    <li> Learning some new skills might help you as well.</li>
+                                </p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="images/chatbot.png" style="border-radius:50%;width:40px;height:40px;" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div id="bot2c">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#ECDBFA;padding:10px;border-radius:20px;">What do pre-teen
+                                    ducks hate? Voice quacks.</p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="images/chatbot.png" style="border-radius:50%;width:40px;height:40px;" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="bot4a">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#ECDBFA;padding:10px;border-radius:20px;">Maybe some of these
+                                    might help:
+                                    <li>Calm you nerves by doing meditation. Here’s a <a
+                                            href="https://youtu.be/O-6f5wQXSu8">link</a> to a video which might help.
+                                    </li>
+                                    <li>Reading a book might help you figure things out.</li>
+                                    <li>Spending some time in the woods can definitely help you.</li>
+                                    <li> Learning some new skills might help you as well.</li>
+                                </p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="images/chatbot.png" style="border-radius:50%;width:40px;height:40px;" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="bot2d">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <!-- <p style="background-color:#D5F5E3;padding:10px;border-radius:20px;">Alright, <a href = "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR" >click here</a></p> -->
+                                <p style="background-color:#ECDBFA;padding:10px;border-radius:20px;">Alright, let me
+                                    take you there. Please <a
+                                        href="https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR">click here </a>
+                                    to continue. </p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="images/chatbot.png" style="border-radius:50%;width:40px;height:40px;" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 
+                   <div id="user2b">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <img src="images/avatar.png" style="border-radius:50%;width:40px;height:40px;margin:10px;"/>
+                        </div>
+                        <div class="col-md-11">
+                            <p id="answer" class="thankyou" style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Yes</p>
+                        </div>
+                    </div>
+                   </div><br><br>
+
+
+                   <div id="bot3b">
+                    <div class="row">
+                        <div class="col-md-11">
+                            <p style="background-color:#D5F5E3;padding:10px;border-radius:20px;">Heres a toll free number</p>
+                        </div>
+                        <div class="col-md-1">
+                            <img src="images/chatbot.png" style="border-radius:50%;width:40px;height:40px;"/>
+                        </div>
+                    </div>
+                </div> -->
+                    <!-- <div id="user3b">
+                <div class="row">
+                    <div class="col-md-1">
+                        <img src="images/avatar.png" style="border-radius:50%;width:40px;height:40px;margin:10px;"/>
+                    </div>
+                    <div class="col-md-11">
+                        <p id="answer" class="thankyou" style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Yes</p>
+                    </div>
+                </div> -->
+                </div><br><br>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
